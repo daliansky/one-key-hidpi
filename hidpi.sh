@@ -252,7 +252,7 @@ EOF
 
 read -p "Enter your choice: " res
 case $res in
-    1 ) create_res_1 1920x1080 1680x945 1440x810 1280x720 1024x576
+    1 ) create_res_1 1920x1080 1680x945 1424x802 1280x720 1024x576
     ;;
     2 ) create_res_1 2048x1152 1920x1080 1680x945 1440x810 1280x720
         create_res_2 1024x576

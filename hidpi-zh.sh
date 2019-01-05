@@ -166,7 +166,7 @@ function choose_icon()
     #
     rm -rf $thisDir/tmp/
     mkdir -p $thisDir/tmp/
-    curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/Icons.plist -o $thisDir/tmp/Icons.plist
+    curl -fsSL https://raw.githubusercontent.com/daliansky/one-key-hidpi/master/Icons.plist -o $thisDir/tmp/Icons.plist
     # curl -fsSL http://127.0.0.1:8080/Icons.plist -o $thisDir/tmp/Icons.plist
 
 #
@@ -254,7 +254,7 @@ EOF
 
 read -p "选择你想要的配置: " res
 case $res in
-    1 ) create_res_1 1920x1080 1680x945 1440x810 1280x720 1024x576
+    1 ) create_res_1 1920x1080 1680x945 1424x802 1280x720 1024x576
 ;;
 2 ) create_res_1 2048x1152 1920x1080 1680x945 1440x810 1280x720
     create_res_2 1024x576
