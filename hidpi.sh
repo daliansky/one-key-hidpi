@@ -50,7 +50,7 @@ function choose_icon()
 {
     #
     mkdir $thisDir/tmp/
-    curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/Icons.plist -o $thisDir/tmp/Icons.plist
+    curl -fsSL https://raw.githubusercontent.com/daliansky/one-key-hidpi/master/Icons.plist -o $thisDir/tmp/Icons.plist
     # curl -fsSL http://127.0.0.1:8080/Icons.plist -o $thisDir/tmp/Icons.plist
 
 #
@@ -133,7 +133,7 @@ cat > "$dpiFile" <<-\HIDPI
                 AAAMgAAABwgA
                 </data>
                 <data>
-                AAALQAAABlQA
+                AAALIAAABkQA
                 </data>
             </array>
         <key>target-default-ppmm</key>

@@ -8,6 +8,8 @@ MacOS的dpi机制和win下不一样，比如1080p的屏幕在win下有125%、150
 
 同时，此脚本也可以通过注入修补后的EDID修复闪屏，或者睡眠唤醒后的闪屏问题，当然这个修复因人而异
 
+**针对Mojave 10.14花屏的修复**
+
 效果：
 
 ![HIDPI效果.png](https://i.loli.net/2017/10/26/59f199e85deb7.png)
@@ -17,7 +19,7 @@ MacOS的dpi机制和win下不一样，比如1080p的屏幕在win下有125%、150
 在终端输入以下命令回车即可
 
 ```
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/one-key-hidpi/master/hidpi.sh)"
 ```
 
 ![运行](https://i.loli.net/2018/04/03/5ac2963c7b26b.png)
