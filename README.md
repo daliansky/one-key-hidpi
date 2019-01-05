@@ -9,6 +9,7 @@
 Some device have wake-up issue, script's second option may help, it inject a patched EDID, but another problem may exists here.
 
 Logo scaling up may not be resolved, cuz the higher resolution is faked.
+
 **Fix Mojave flower screen thanks to the resolution parameters provided by @Steeeve**
 
 System Preferences
